@@ -3143,7 +3143,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 92.71) (xy 114.3 92.71)
+			(xy 121.92 92.71) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3297,7 +3297,7 @@
 	)
 	(global_label "+3.3V"
 		(shape input)
-		(at 120.65 92.71 0)
+		(at 121.92 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3307,7 +3307,7 @@
 		)
 		(uuid "67b9f5e7-8b26-43bd-8216-1751d8cbb8df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.32 92.71 0)
+			(at 130.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4552,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT"
+		(property "Value" "Power"
 			(at 60.96 88.9 0)
 			(effects
 				(font
@@ -5374,7 +5374,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "10μF"
 			(at 116.84 91.4335 0)
 			(effects
 				(font

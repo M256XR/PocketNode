@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e2b3b76c-15d2-45d4-9847-56ef7109e38b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 13.97 15.24)
+		(size 64.77 64.77)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "685387d4-db8b-4df7-8941-3d824be3e920")
+		(property "Sheetname" "power"
+			(at 13.97 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 13.97 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PocketNode"
+				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 15.24)
+		(size 63.5 64.77)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3bd9f70-08e8-4658-b168-675f40b62085")
+		(property "Sheetname" "MCU"
+			(at 85.09 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 85.09 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PocketNode"
+				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

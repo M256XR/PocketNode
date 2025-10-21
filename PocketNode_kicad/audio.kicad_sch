@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c3ed3dc0-210f-47ec-ae22-7c0fafd2977b")
+	(uuid "97dc1d78-95d5-48c1-b193-9ac989c8aca2")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Audio:AudioPlug3"

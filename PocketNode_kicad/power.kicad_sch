@@ -3629,7 +3629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP1700T-3302E_TT"
+		(property "Footprint" "Library:SOT95P237X112-3N"
 			(at 93.98 95.25 0)
 			(effects
 				(font
@@ -3903,7 +3903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 97.79 73.66 0)
 			(effects
 				(font
@@ -4106,7 +4106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 168.91 36.83 0)
 			(effects
 				(font
@@ -4174,7 +4174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 40.64 92.71 90)
 			(effects
 				(font
@@ -4327,7 +4327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP73831T-2ACI_OT"
+		(property "Footprint" "Library:SOT95P280X145-5N"
 			(at 76.2 68.58 0)
 			(effects
 				(font
@@ -4404,7 +4404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 40.64 101.6 90)
 			(effects
 				(font
@@ -4631,7 +4631,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 87.63 31.75 0)
 			(effects
 				(font
@@ -4699,7 +4699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.88 71.12 0)
 			(effects
 				(font
@@ -4834,7 +4834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 34.29 31.75 0)
 			(effects
 				(font
@@ -5170,7 +5170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 38.1 68.58 0)
 			(effects
 				(font
@@ -5237,7 +5237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.14 57.15 0)
 			(effects
 				(font
@@ -5304,7 +5304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 113.03 66.04 90)
 			(effects
 				(font
@@ -5383,7 +5383,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 114.3 90.17 0)
 			(effects
 				(font
@@ -5451,7 +5451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USBLC6-2SC6"
+		(property "Footprint" "Library:SOT95P280X145-6N"
 			(at 146.05 34.29 0)
 			(effects
 				(font
@@ -5531,7 +5531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 113.03 57.15 90)
 			(effects
 				(font
@@ -5607,7 +5607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.14 66.04 0)
 			(effects
 				(font
@@ -5675,7 +5675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB4105-GF-A"
+		(property "Footprint" "Library:GCT_USB4105-GF-A"
 			(at 57.15 36.83 0)
 			(effects
 				(font
@@ -6055,7 +6055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 71.12 95.25 0)
 			(effects
 				(font

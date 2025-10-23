@@ -3693,7 +3693,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω@100MHz"
+		(property "Value" "120Ω@100MHz"
 			(at 92.7481 20.32 90)
 			(effects
 				(font
@@ -3701,7 +3701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:BEADC1608X95N"
 			(at 92.71 22.352 90)
 			(effects
 				(font
@@ -4492,7 +4492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 142.24 75.946 90)
 			(effects
 				(font

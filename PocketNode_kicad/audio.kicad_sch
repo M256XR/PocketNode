@@ -5,216 +5,6 @@
 	(uuid "97dc1d78-95d5-48c1-b193-9ac989c8aca2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Audio:AudioPlug3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioPlug3"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm 6.35mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Plug*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioPlug3_0_0"
-				(text "R"
-					(at -2.54 0 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "AudioPlug3_0_1"
-				(rectangle
-					(start -3.81 3.81)
-					(end -1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -1.27)
-					(end -1.27 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioPlug3_1_0"
-				(text "T"
-					(at -8.89 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "S"
-					(at 3.81 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "AudioPlug3_1_1"
-				(rectangle
-					(start -3.81 3.81)
-					(end 8.89 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -5.08 3.81) (xy -6.35 2.54) (xy -10.16 3.81) (xy -12.7 1.27) (xy -12.7 -1.27)
-						(xy -10.16 -3.81) (xy -6.35 -2.54) (xy -5.08 -3.81) (xy -3.81 -3.81) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 12.7 5.08)
-					(end 8.89 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -345,6 +135,214 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:MJ-8435"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MJ-8435"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "MJ-8435"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://akizukidenshi.com/download/ds/marushin/mj8435.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.5 earphone jack"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Marushin Electric"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MJ-8435"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MJ-8435_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1160,6 +1158,12 @@
 		)
 	)
 	(junction
+		(at 205.74 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c7cfcf7-b31f-4051-949c-e21ed3ed6c91")
+	)
+	(junction
 		(at 128.27 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1308,6 +1312,16 @@
 			(type default)
 		)
 		(uuid "377bd43b-777b-48f1-b8e3-73a25ebd886f")
+	)
+	(wire
+		(pts
+			(xy 205.74 80.01) (xy 205.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d58c5b-1057-4e42-b5b1-916a7ade1fcb")
 	)
 	(wire
 		(pts
@@ -1623,28 +1637,6 @@
 			)
 		)
 	)
-	(global_label "Out_R"
-		(shape input)
-		(at 204.47 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b347e21-503d-45b3-b6c9-17d7697e3c1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.898 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+3.3V"
 		(shape input)
 		(at 50.8 34.29 180)
@@ -1711,28 +1703,6 @@
 			)
 		)
 	)
-	(global_label "Out_L"
-		(shape input)
-		(at 204.47 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b2fb0b4f-a664-4436-98a9-1ea3ac27fc37")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.6561 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+3.3V"
 		(shape input)
 		(at 50.8 39.37 180)
@@ -1746,6 +1716,28 @@
 		(uuid "bb9469db-feb2-44f8-9031-ebf62aafbd50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 42.13 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Out_R"
+		(shape input)
+		(at 182.88 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0c73bd1-97b6-4dd5-ae0c-34f21c27eeaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.452 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,6 +1804,28 @@
 		(uuid "d0e4aeec-6ec8-4ff1-a71b-e5327883e6cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Out_L"
+		(shape input)
+		(at 182.88 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2321002-01b7-4308-9a79-a9c5291bfba6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.6939 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,33 +3337,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioPlug3")
-		(at 189.23 64.77 0)
+		(lib_id "Library:MJ-8435")
+		(at 182.88 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8a0dee0c-f407-4bb1-8f21-84b238c6956f")
-		(property "Reference" "J3"
-			(at 189.23 54.61 0)
+		(uuid "8c354795-88a2-4875-8efd-5ac30bf9468f")
+		(property "Reference" "J4"
+			(at 194.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AudioPlug3"
-			(at 189.23 57.15 0)
+		(property "Value" "MJ-8435"
+			(at 194.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 191.77 66.04 0)
+		(property "Footprint" "Library:MJ-8435"
+			(at 201.93 174.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://akizukidenshi.com/download/ds/marushin/mj8435.pdf"
+			(at 201.93 274.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5 earphone jack"
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,37 +3391,92 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 191.77 66.04 0)
+		(property "Height" ""
+			(at 201.93 474.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 189.23 64.77 0)
+		(property "Manufacturer_Name" "Marushin Electric"
+			(at 201.93 574.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "S"
-			(uuid "2c6f78f8-5f9d-424e-a3b8-63c96c6b6c68")
+		(property "Manufacturer_Part_Number" "MJ-8435"
+			(at 201.93 674.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "R"
-			(uuid "9b8a3a5f-7961-4aae-940c-13d780343a59")
+		(property "Mouser Part Number" ""
+			(at 201.93 774.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "T"
-			(uuid "0183ba3d-be65-4f7a-99f5-04cdbb29221e")
+		(property "Mouser Price/Stock" ""
+			(at 201.93 874.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 201.93 974.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 201.93 1074.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "28fda891-91af-48c3-a48e-9feb05690fc0")
+		)
+		(pin "1"
+			(uuid "2bb0d191-fed2-496d-bf1e-89b3521716c0")
+		)
+		(pin "2"
+			(uuid "e2fa8add-de5f-419e-8734-5de6adc0b0a0")
+		)
+		(pin "3"
+			(uuid "e78f2c37-b7f5-41ef-81d9-11d53eb2f229")
 		)
 		(instances
 			(project ""
 				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/774ade8b-4e58-45a4-b72f-045587259432"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4272,7 +4361,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 62.23 90)
+		(at 205.74 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4280,7 +4369,7 @@
 		(dnp no)
 		(uuid "eaef3c3a-e206-4891-af3e-2d7d17c2444d")
 		(property "Reference" "#PWR042"
-			(at 210.82 62.23 0)
+			(at 212.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4378,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 62.23 0)
+			(at 210.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 62.23 0)
+			(at 205.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 62.23 0)
+			(at 205.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 62.23 0)
+			(at 205.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

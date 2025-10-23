@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MJ-8435
+D 3.5 earphone jack
+K
+F http://akizukidenshi.com/download/ds/marushin/mj8435.pdf
+$ENDCMP
+#
+#End Doc Library

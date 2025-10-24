@@ -152,13 +152,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "033b3bb9-8b74-4118-844c-01dd1d49cead")
-		(at 137.25 35.2)
+		(at 118.75 25.25)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW6"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
-			(uuid "3277d274-3b89-4b2e-98d7-e7a837f1c9ee")
+			(uuid "71bcc5a1-c4be-45cc-9f89-98aff790bda2")
 			(effects
 				(font
 					(size 1 1)
@@ -169,7 +169,7 @@
 		(property "Value" "SW2"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
-			(uuid "b0635680-23ad-48db-a6c9-c6928a49e999")
+			(uuid "68415820-84de-4cba-b944-0e0930872356")
 			(effects
 				(font
 					(size 1 1)
@@ -182,7 +182,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de20d2fd-c81a-4917-ac2e-8e125f65f48d")
+			(uuid "8f088844-ad40-4268-a29e-b272c04ec2dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,7 +195,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09a260bd-fcf2-4a7d-99ef-e2959bd19608")
+			(uuid "15f16ffb-44ec-46dd-b990-fff9954cd890")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +5254,7 @@
 	(footprint "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 		(layer "F.Cu")
 		(uuid "42586eab-a214-4e6c-94af-41782a0f75df")
-		(at 149.9 75)
+		(at 105.6 35)
 		(descr "CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf")
 		(tags "switch SPDT")
 		(property "Reference" "SW1"
@@ -11857,9 +11857,9 @@
 	(footprint "Library:TRIM_EC10E1220501"
 		(layer "F.Cu")
 		(uuid "92e218bb-062a-4380-a835-56e29f47c326")
-		(at 140.1 54)
+		(at 125 53)
 		(property "Reference" "VR2"
-			(at -2.828385 -5.641775 0)
+			(at 0 -3 0)
 			(layer "F.SilkS")
 			(uuid "a8a6b669-1dbc-4b80-9a6d-abd1a2a6ba4f")
 			(effects
@@ -13472,13 +13472,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "9659a690-c779-4447-b915-78693e7179de")
-		(at 137.25 43.75)
+		(at 118.75 33.8)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW7"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
-			(uuid "87f8ef14-0823-4695-8099-fe6ce1af507d")
+			(uuid "51ff2256-d4fb-4f2f-b1fc-7cdc2417a466")
 			(effects
 				(font
 					(size 1 1)
@@ -13489,7 +13489,7 @@
 		(property "Value" "SW3"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
-			(uuid "589c9112-5f96-4f09-99a7-9d07f832a540")
+			(uuid "455c8eec-c2b1-4094-9338-691858340268")
 			(effects
 				(font
 					(size 1 1)
@@ -13502,7 +13502,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6f4b2b1-8d38-4e33-8a29-c1708cab53c0")
+			(uuid "992da9eb-6597-441f-8887-e94b403c4558")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13515,7 +13515,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38b0d3e6-2b65-4ffb-ab0a-cbd0f9ff2428")
+			(uuid "6f4d7d8b-3d75-4775-b4ee-89d831574df0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18898,13 +18898,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "e42256bb-0e8d-433f-b614-6a21c88dfcff")
-		(at 137.25 26.65)
+		(at 118.75 16.7)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW5"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
-			(uuid "93c544c8-bb02-449e-b3aa-c975d9c18093")
+			(uuid "45a6a81d-2f56-4136-8a1e-c7ba169f2503")
 			(effects
 				(font
 					(size 1 1)
@@ -18915,7 +18915,7 @@
 		(property "Value" "SW1"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
-			(uuid "eafa32ed-5de0-4523-bf10-0a08b13616ae")
+			(uuid "80f32ad5-cb67-45ec-8c17-9f61e0e87c69")
 			(effects
 				(font
 					(size 1 1)
@@ -18928,7 +18928,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7abc6e1-5290-4aaf-aadd-d5aa21378972")
+			(uuid "eaf642b1-6c43-4614-b362-483e1b4e581d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18941,7 +18941,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be47cde9-03f8-4c36-8868-5dc046f4a6d5")
+			(uuid "02eb3656-cf7f-43f2-ba11-66eac274619e")
 			(effects
 				(font
 					(size 1.27 1.27)

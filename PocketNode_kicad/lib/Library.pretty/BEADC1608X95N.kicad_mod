@@ -10,7 +10,7 @@
 		(effects
 			(font
 				(size 0.393701 0.393701)
-				(thickness 0.15)
+				(thickness 0.098425)
 			)
 		)
 	)
@@ -21,7 +21,7 @@
 		(effects
 			(font
 				(size 0.393701 0.393701)
-				(thickness 0.15)
+				(thickness 0.098425)
 			)
 		)
 	)
@@ -145,4 +145,15 @@
 		(uuid "570d1b18-de94-467d-941c-a79924862266")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/BLM18PG121SN1D/BLM18PG121SN1D.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

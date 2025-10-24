@@ -221,4 +221,15 @@
 		(uuid "6acff09b-231e-4666-adcc-4a0d4b07d565")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/USBLC6-2SC6/USBLC6-2SC6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

@@ -333,4 +333,15 @@
 		(uuid "7c708faa-90bc-4d93-8554-06aee8e73d94")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/PCM5102APWR/PCM5102APWR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

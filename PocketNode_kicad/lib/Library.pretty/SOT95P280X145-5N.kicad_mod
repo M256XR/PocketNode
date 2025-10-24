@@ -223,4 +223,15 @@
 		(uuid "abb644f3-23ef-45e2-8b58-57f740242fca")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/TPS73601DBVR/TPS73601DBVR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

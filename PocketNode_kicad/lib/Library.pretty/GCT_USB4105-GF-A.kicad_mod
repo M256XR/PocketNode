@@ -480,4 +480,15 @@
 		(uuid "de120031-0c98-4909-bd18-64d98655c427")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/USB4105-GF-A/USB4105-GF-A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

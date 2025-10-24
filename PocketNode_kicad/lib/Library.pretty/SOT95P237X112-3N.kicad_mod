@@ -217,4 +217,15 @@
 		(uuid "86c29013-10a5-4adc-a34a-4713ae27d734")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/MMBT3904/MMBT3904.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

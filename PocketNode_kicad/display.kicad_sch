@@ -5,7 +5,7 @@
 	(uuid "aee9fe27-1af3-4c2e-858b-1e26959671cf")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic_MountingPin:Conn_01x07_MountingPin"
+		(symbol "Connector_Generic:Conn_01x07"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,13 +21,12 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x07_MountingPin"
-				(at 1.27 -10.16 0)
+			(property "Value" "Conn_01x07"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -48,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x07_MountingPin_1_1"
+			(symbol "Conn_01x07_1_1"
 				(rectangle
 					(start -1.27 8.89)
 					(end 1.27 -8.89)
@@ -162,26 +161,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -9.652) (xy 1.016 -9.652)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -9.271 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
 					)
 				)
 				(pin passive line
@@ -303,24 +282,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -877,7 +838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x07_MountingPin")
+		(lib_id "Connector_Generic:Conn_01x07")
 		(at 177.8 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -885,9 +846,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2bb9c9af-f833-4c8e-99e5-8daba3b0cd05")
-		(property "Reference" "J2"
-			(at 180.34 75.2855 0)
+		(uuid "2478f614-e842-436a-9a9d-234a17f923a2")
+		(property "Reference" "J3"
+			(at 180.34 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,7 +857,7 @@
 			)
 		)
 		(property "Value" "display"
-			(at 180.34 77.8255 0)
+			(at 180.34 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,7 +865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
 			(at 177.8 76.2 0)
 			(effects
 				(font
@@ -922,7 +883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 177.8 76.2 0)
 			(effects
 				(font
@@ -931,34 +892,31 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "35d95c88-bed0-4c11-917e-61da889c2c6c")
-		)
 		(pin "2"
-			(uuid "e2bd3ef9-e85f-46bb-b280-1be204065696")
+			(uuid "b36a92a4-18fd-4698-8bb1-03c0a27ab09d")
 		)
 		(pin "4"
-			(uuid "a2edae09-2d3c-49bc-9a20-4b8052668814")
-		)
-		(pin "7"
-			(uuid "cb734f1a-b12f-46f7-a913-d755c4266459")
-		)
-		(pin "5"
-			(uuid "9920f6d3-0e69-4a98-9391-e494ef33d574")
-		)
-		(pin "MP"
-			(uuid "4ecd30c8-0828-4135-abb1-106b1e1551ab")
-		)
-		(pin "3"
-			(uuid "0d2f40ac-9d30-4fd4-b494-cfac5151e260")
+			(uuid "01f12086-9384-4acc-8971-c093393b2151")
 		)
 		(pin "6"
-			(uuid "39853ec2-2f21-42c6-a4c4-76a6401392c7")
+			(uuid "2ac5476c-578d-4170-84df-4831106b5c9d")
+		)
+		(pin "3"
+			(uuid "5c1be7b4-34e0-416d-a194-1491b72da03f")
+		)
+		(pin "5"
+			(uuid "b882f4ff-8ffe-4335-bfe3-12a54780c69c")
+		)
+		(pin "7"
+			(uuid "ebb2972d-614f-4810-a135-bccbabeb1cd9")
+		)
+		(pin "1"
+			(uuid "41946b15-6141-47ee-91ff-912e8cadaea3")
 		)
 		(instances
 			(project ""
 				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/c058e23a-95ff-46ea-890f-afb329646003"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)

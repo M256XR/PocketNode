@@ -4292,7 +4292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
 			(at 252.73 85.09 0)
 			(effects
 				(font
@@ -5921,7 +5921,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 252.73 144.78 0)
 			(effects
 				(font
@@ -6331,7 +6331,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 252.73 124.46 0)
 			(effects
 				(font
@@ -6940,7 +6940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 252.73 105.41 0)
 			(effects
 				(font

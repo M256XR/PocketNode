@@ -1517,12 +1517,6 @@
 		(uuid "943cb4e4-b187-4982-bbc8-9c8cba97f0ce")
 	)
 	(junction
-		(at 241.3 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99c0ab12-a5c9-4336-8574-d3f3eb4c2a7a")
-	)
-	(junction
 		(at 104.14 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1770,16 +1764,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 90.17) (xy 241.3 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d628003-10c5-481a-a6dc-58326cb0a1af")
-	)
-	(wire
-		(pts
 			(xy 242.57 71.12) (xy 255.27 71.12)
 		)
 		(stroke
@@ -1797,16 +1781,6 @@
 			(type default)
 		)
 		(uuid "8c12bcd1-887b-4556-ae9e-2bc794a937c9")
-	)
-	(wire
-		(pts
-			(xy 217.17 90.17) (xy 227.33 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fd98172-2d91-4a1c-8331-b85d4bca6b40")
 	)
 	(wire
 		(pts
@@ -1987,16 +1961,6 @@
 			(type default)
 		)
 		(uuid "f2c174c5-9c5d-4c3a-be09-15381408dc12")
-	)
-	(wire
-		(pts
-			(xy 241.3 90.17) (xy 247.65 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6b1e541-87ea-4f1b-9a0a-d8f0513b7fb4")
 	)
 	(wire
 		(pts
@@ -2338,28 +2302,6 @@
 	)
 	(global_label "+3.3V"
 		(shape input)
-		(at 217.17 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4cef2461-41a9-4494-a44a-098a90366a3d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.5 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape input)
 		(at 128.27 68.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2596,28 +2538,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ENC_SW"
-		(shape input)
-		(at 245.11 90.17 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "94b5fb25-b873-42eb-8b8f-cfebdac8c40e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 100.5332 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3115,73 +3035,6 @@
 			(project ""
 				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/61adde94-3e04-48a8-bb2e-2071badb04aa"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 257.81 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c2994db-9dfd-4950-9d88-03c60afb6f4f")
-		(property "Reference" "#PWR065"
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 261.62 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66330746-42c5-4687-8da1-2c45c3e74342")
-		)
-		(instances
-			(project "PocketNode"
-				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/61adde94-3e04-48a8-bb2e-2071badb04aa"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4261,74 +4114,6 @@
 			(project "PocketNode"
 				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/61adde94-3e04-48a8-bb2e-2071badb04aa"
 					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 252.73 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c7b0ca4-ffc5-4be7-b9e4-4ce280543138")
-		(property "Reference" "SW4"
-			(at 252.73 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ENC_SW"
-			(at 252.73 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
-			(at 252.73 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 252.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff904819-fc4a-42f5-89e4-92db22319bb0")
-		)
-		(pin "2"
-			(uuid "8e6a4bcf-a33a-4d43-a730-c2cd24757e11")
-		)
-		(instances
-			(project ""
-				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/61adde94-3e04-48a8-bb2e-2071badb04aa"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -5559,72 +5344,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 95.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ab01c69-cb65-4a9e-b683-da499c38e9f5")
-		(property "Reference" "#PWR064"
-			(at 241.3 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12f23d9f-fdc9-4658-986d-ebfeea577435")
-		)
-		(instances
-			(project "PocketNode"
-				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/61adde94-3e04-48a8-bb2e-2071badb04aa"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 93.98 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6236,76 +5955,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 241.3 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b86b91b2-39c1-47dd-88c9-6991741bb051")
-		(property "Reference" "C34"
-			(at 238.76 93.9865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10μF"
-			(at 238.76 91.4465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 241.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 241.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21bb7d49-809c-467f-9a04-ea8ea7df212e")
-		)
-		(pin "2"
-			(uuid "90132f4e-f780-4eb5-886d-3e5e0f36509a")
-		)
-		(instances
-			(project "PocketNode"
-				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/61adde94-3e04-48a8-bb2e-2071badb04aa"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 252.73 129.54 0)
 		(unit 1)
@@ -6504,74 +6153,6 @@
 			(project "PocketNode"
 				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/61adde94-3e04-48a8-bb2e-2071badb04aa"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 229.87 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d46869b7-4e5b-45c3-8d47-7e1ccfb04a3b")
-		(property "Reference" "R19"
-			(at 229.87 85.09 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 229.87 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 229.87 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 229.87 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab9b9675-0e24-4406-b547-e711673cf3e1")
-		)
-		(pin "2"
-			(uuid "893ad20c-ba41-41f3-8215-a2b9a9f8c679")
-		)
-		(instances
-			(project "PocketNode"
-				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/61adde94-3e04-48a8-bb2e-2071badb04aa"
-					(reference "R19")
 					(unit 1)
 				)
 			)

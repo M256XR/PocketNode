@@ -132,48 +132,6 @@
 		)
 	)
 	(sheet
-		(at 154.94 86.36)
-		(size 63.5 62.23)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ab47e122-4b24-4b50-8352-73672de6db19")
-		(property "Sheetname" "LED"
-			(at 154.94 85.6484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "LED.kicad_sch"
-			(at 154.94 149.1746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PocketNode"
-				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 154.94 15.24)
 		(size 63.5 64.77)
 		(exclude_from_sim no)

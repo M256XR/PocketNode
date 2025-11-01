@@ -1668,6 +1668,12 @@
 		(uuid "9cb84cd1-51c3-422f-8a46-d7e98fd1080a")
 	)
 	(junction
+		(at 196.85 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8435178-a9af-4b05-9a25-91e45904740b")
+	)
+	(junction
 		(at 168.91 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1947,6 +1953,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 85.09) (xy 196.85 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8799b3b-769b-4d60-a51e-580e6e5328fe")
+	)
+	(wire
+		(pts
 			(xy 193.04 93.98) (xy 193.04 96.52)
 		)
 		(stroke
@@ -1964,6 +1980,16 @@
 			(type default)
 		)
 		(uuid "af8eb8f2-1d32-497c-a9a8-62f62e02a33b")
+	)
+	(wire
+		(pts
+			(xy 196.85 96.52) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9722abc-3cd3-4059-9d91-70afcace7e67")
 	)
 	(wire
 		(pts
@@ -3313,6 +3339,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 196.85 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "590bd703-063b-4355-9ab4-2c468e88edcb")
+		(property "Reference" "#PWR075"
+			(at 196.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29c9a848-6288-41f1-8ec4-bb4052b2acb0")
+		)
+		(instances
+			(project "PocketNode"
+				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/c3bd9f70-08e8-4658-b168-675f40b62085"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 128.27 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4059,6 +4151,76 @@
 			(project "PocketNode"
 				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/c3bd9f70-08e8-4658-b168-675f40b62085"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 196.85 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7499a8-8d2d-4e60-bb93-a977546f0fae")
+		(property "Reference" "C38"
+			(at 199.39 88.9062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1μF"
+			(at 199.39 91.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f5bac0b-f0fb-488f-bf05-933008ada551")
+		)
+		(pin "2"
+			(uuid "4d5ed2de-6908-43db-b4c4-2666689b0ad3")
+		)
+		(instances
+			(project "PocketNode"
+				(path "/e2b3b76c-15d2-45d4-9847-56ef7109e38b/c3bd9f70-08e8-4658-b168-675f40b62085"
+					(reference "C38")
 					(unit 1)
 				)
 			)

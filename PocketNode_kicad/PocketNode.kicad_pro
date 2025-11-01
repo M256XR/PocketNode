@@ -652,6 +652,10 @@
     [
       "61adde94-3e04-48a8-bb2e-2071badb04aa",
       "Sensors"
+    ],
+    [
+      "9d07b448-b3c5-4421-bc9e-74964f95546d",
+      "connect"
     ]
   ],
   "text_variables": {}

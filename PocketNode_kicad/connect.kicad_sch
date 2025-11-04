@@ -1306,8 +1306,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x17_Pin")
-		(at 115.57 63.5 0)
-		(mirror y)
+		(at 115.57 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1315,7 +1314,7 @@
 		(dnp no)
 		(uuid "872ed114-57f4-44c4-b9ed-7d5e2c953850")
 		(property "Reference" "J2"
-			(at 114.935 38.1 0)
+			(at 114.935 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,14 +1322,14 @@
 			)
 		)
 		(property "Value" "Connector"
-			(at 114.935 40.64 0)
+			(at 114.935 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x17_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x17_P2.00mm_Horizontal"
 			(at 115.57 63.5 0)
 			(effects
 				(font
